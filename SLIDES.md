@@ -259,8 +259,7 @@ TODO: casanova
 
 <!-- end_slide -->
 
-
-CSV rewards clever engineering (1/2)
+CSV rewards out-of-the-box engineering
 ===
 
 # Reading CSV data in reverse
@@ -281,30 +280,6 @@ Thanks to reverse reading!
 ```bash
 minet fetch url -i posts.csv --resume -o report.csv
 ```
-
-<!-- end_slide -->
-
-
-CSV rewards clever engineering (2/2)
-===
-
-# Jumping randomly in a CSV file is possible!
-
-If you are crazy enough.
-
-```bash
-xan sample --c̵̱̝͆̓ṳ̷̔r̶̡͇͓̍̇š̷̠̎e̶̜̝̿́d̸͔̈́̀  10 file.csv
-```
-
-# Single-pass parallelization
-
-Thanks to random jumps!
-
-```bash
-xan parallel count file.csv
-xan freq --threads 16 -s category -l 25 file.csv
-```
-
 <!-- end_slide -->
 
 Conclusion: always bet on CSV!
