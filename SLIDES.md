@@ -178,6 +178,8 @@ CSV is a bridge between the **spreasheet** world and the **engineering** world.
 
 CSV is a good fit for both **tiny** & **big** data problem.
 
+CSV creates the perfect conditions for the *de facto* auto-organized **interoperability** of a lot of free tools designed and maintained by many people around the world!
+
 <!-- end_slide -->
 
 An ethos of sobriety
@@ -204,14 +206,108 @@ CSV is naturally succinct
 CSV is efficient
 ===
 
+Can you reliably collect billions of tweets without databases, relying only on large heaps of CSV data?
+
+Sure! *(At least this is what we did for years before the evil dude arrived)*
+
+CSV can be thought of as a structured append-only log format.
+
 <!-- end_slide -->
 
-CSV rewards clever engineering
+Building tools around CSV (1/5)
 ===
 
+# From dedicated web UIs
+
+![table2net](./img/table2net.png)
+
 <!-- end_slide -->
 
-Conclusion
+Building tools around CSV (2/5)
+===
+
+# From dedicated web UIs
+
+![table2net](./img/takoyaki.png)
+
+<!-- end_slide -->
+
+Building tools around CSV (3/5)
+===
+
+# To CLI interfaces
+
+TODO: minet
+
+<!-- end_slide -->
+
+Building tools around CSV (4/5)
+===
+
+# To CLI interfaces
+
+TODO: xan
+
+<!-- end_slide -->
+
+Building tools around CSV (5/5)
+===
+
+# To libraries
+
+TODO: casanova
+
+<!-- end_slide -->
+
+
+CSV rewards clever engineering (1/2)
+===
+
+# Reading CSV data in reverse
+
+Thanks to backslash-free quote escaping!
+
+```bash
+# Constant memory!
+# Amortized linear time!
+xan reverse file.csv
+xan tail file.csv
+```
+
+# Resuming
+
+Thanks to reverse reading!
+
+```bash
+minet fetch url -i posts.csv --resume -o report.csv
+```
+
+<!-- end_slide -->
+
+
+CSV rewards clever engineering (2/2)
+===
+
+# Jumping randomly in a CSV file is possible!
+
+If you are crazy enough.
+
+```bash
+xan sample --c̵̱̝͆̓ṳ̷̔r̶̡͇͓̍̇š̷̠̎e̶̜̝̿́d̸͔̈́̀  10 file.csv
+```
+
+# Single-pass parallelization
+
+Thanks to random jumps!
+
+```bash
+xan parallel count file.csv
+xan freq --threads 16 -s category -l 25 file.csv
+```
+
+<!-- end_slide -->
+
+Conclusion: always bet on CSV!
 ===
 
 ![flowchart](./img/database-flowchart.png)
