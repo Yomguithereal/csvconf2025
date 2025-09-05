@@ -54,7 +54,9 @@ https://github.com/medialab/xan/blob/master/docs/LOVE_LETTER.md
 
 # Why though?
 
-Because CSV can be seen as a `lingua franca` in our line of work.
+Because CSV is an affordable, understandable and free data format.
+
+So much so that CSV is now a `lingua franca` for data for our research engineering work.
 
 <!-- end_slide -->
 
@@ -172,9 +174,9 @@ CSV is a bridge
 
 CSV can be handled by both **researchers**, **students** and **engineers** alike.
 
-CSV is a good solution for a **tiny** data problem.
+CSV is a bridge between the **spreasheet** world and the **engineering** world.
 
-CSV is a good solution for a **big** data problem.
+CSV is a good fit for both **tiny** & **big** data problem.
 
 <!-- end_slide -->
 
@@ -222,6 +224,7 @@ Thank you for your time !
 Some CSV-relevant links:
 
 * `médialab's Open Source`: https://github.com/medialab/
+* `Love Letter`: https://github.com/medialab/xan/blob/master/docs/LOVE_LETTER.md
 * `xan`: https://github.com/medialab/xan
 * `minet`: https://github.com/medialab/minet
 * `casanova`: https://github.com/medialab/casanova
