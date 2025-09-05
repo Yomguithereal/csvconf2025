@@ -1,0 +1,10 @@
+# Guidelines from csv,conf 2025
+
+CSVconf is a fun, energetic event. Every 25 minutes, we will ask attendees to move around and pick a new talk to attend. If you are new to CSVconf, you can imagine that this format makes for a rapid fire, engaging environment.  Here’s what you should keep in mind:
+
+* Concise. You will have a total of 20 minutes to present.  We recommend speaking for no more than 15 minutes and leaving the remaining time for Q/A.  After your 20min, the session will end and all attendees will have 5min to decide and move to their next talk.
+* Skip the intros. Due to the short sessions, it is best to skip any lengthy introductory slides. Attendees will have multiple opportunities to learn about you and your background. So, unless it is vital to the presentation, there is no need to include multiple slides introducing yourself or your organization.
+* Engaging. Make sure to build a story that will engage the audience. We want to be pulled into your project: What is the problem you solved? Why does it matter? How does it help our community?  How is society better off?  CSVconf is definitely a nerdy event, but it is not a place for boring talks.
+* Connect. Don’t worry if you feel the short session duration is not enough time to interact with others. You will have tons of time to interact with attendees and other speakers during the event and online.  We promise! While on that topic, we encourage you to join our Slack to keep up to date on the latest CSV news: http://tinyurl.com/csvslack.
+* Recording. We like to have all talks recorded and posted online to ensure they can be accessible to a larger audience. Our YouTube channel is a great place to see past talks and get a feel for what makes CSVconf so great: https://www.youtube.com/channel/UCWq7JfT4PJrCZLmxSOVJOww. (Note, if you prefer to not be recorded, please reply to this email or speak to an organizer at the event.)
+* Language assistance. If you require assistance with preparing your talk in English or would prefer to do your talk in a different language, please let us know and we will do what we can to accommodate.
