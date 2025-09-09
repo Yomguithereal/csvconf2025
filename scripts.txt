@@ -1,0 +1,5 @@
+# Exporting slides to PDF
+uv run --with weasyprint presenterm --export-pdf SLIDES.md
+
+# Launching kitty term fullscreen
+kitty --start-as fullscreen

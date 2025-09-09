@@ -56,7 +56,7 @@ https://github.com/medialab/xan/blob/master/docs/LOVE_LETTER.md
 
 Because CSV is an affordable, understandable and free data format.
 
-So much so that CSV is now a `lingua franca` for data for our research engineering work.
+So much so that CSV is a data `lingua franca` for our research engineering work.
 
 <!-- end_slide -->
 
@@ -104,7 +104,7 @@ Less so with nested or hierarchical data structures like the ones found in JSON:
 CSV is simple
 ===
 
-The specification holds in its title: **C**omma **S**eparates **V**alues!
+The specification holds in the title: **C**omma **S**eparates **V**alues!
 
 *(Everyone here knows it's a lie, sure you need to quote values with newlines and double your quotes, but you see the point...)*
 
@@ -116,7 +116,7 @@ In any case: it can be explained to anybody in mere **minutes**.
 
 Even more so: the format is so simple you might invent it **yourself**.
 
-*(Or at least I did at the beginning of my engineering career. I thought I was soooo clever...)*
+*(Or should I say **discover** it)*
 
 <!-- end_slide -->
 
@@ -165,7 +165,9 @@ You can **write** it yourself, to some degree.
 
 You can **read** it yourself, to some degree.
 
-You will probably still be able to do so it in 50 years.
+If I hand out some CSV to you, you should be able to understand what's going on very easily in this piece of text.
+
+And you will probably still be able to do so it in 50 years.
 
 <!-- end_slide -->
 
@@ -192,6 +194,10 @@ Altough not exactly a chosen one ;)
 * We don't have access to powerful hardware.
 * Most of our users (students, researchers, civil society) don't have access to powerful hardware neither.
 
+---
+
+What makes CSV a *sober* data format?
+
 <!-- end_slide -->
 
 CSV is naturally succinct
@@ -199,14 +205,14 @@ CSV is naturally succinct
 
 1. Headers are only written once
 2. Strings are optimally represented (except for quotes)
-3. Numbers could be lighter, but no order of magnitude to gain
+3. Numbers could be lighter, but not by much
 
 <!-- end_slide -->
 
 CSV is efficient
 ===
 
-Can you reliably collect billions of tweets without databases, relying only on large heaps of CSV data?
+Can you reliably collect billions of tweets without databases, relying only on gigabytes of CSV data?
 
 Sure! *(At least this is what we did for years before the evil dude arrived)*
 
@@ -217,7 +223,7 @@ CSV can be thought of as a structured append-only log format.
 Building tools around CSV (1/5)
 ===
 
-# From dedicated web UIs
+# Dedicated web UIs
 
 ![table2net](./img/table2net.png)
 
@@ -226,7 +232,7 @@ Building tools around CSV (1/5)
 Building tools around CSV (2/5)
 ===
 
-# From dedicated web UIs
+# Dedicated web UIs
 
 ![table2net](./img/takoyaki.png)
 
@@ -235,27 +241,48 @@ Building tools around CSV (2/5)
 Building tools around CSV (3/5)
 ===
 
-# To CLI interfaces
+# Command line tools
 
-TODO: minet
+https://github.com/medialab/minet
+
+![minet-fetch](./img/minet-fetch.gif)
+
+CSV in, CSV out
 
 <!-- end_slide -->
 
 Building tools around CSV (4/5)
 ===
 
-# To CLI interfaces
+# Command line tools
 
-TODO: xan
+https://github.com/medialab/xan
+
+![xan](./img/xan.gif)
 
 <!-- end_slide -->
 
 Building tools around CSV (5/5)
 ===
 
-# To libraries
+# Libraries
 
-TODO: casanova
+https://github.com/medialab/casanova
+
+```python
+import casanova
+
+with open("cities.csv") as input_file \
+     open("enriched-cities.csv") as output_file:
+
+  enricher = casanova.enricher(
+    input_file, output_file,
+    add=["pop_ratio"]
+  )
+
+  for row in enricher:
+    ...
+```
 
 <!-- end_slide -->
 
